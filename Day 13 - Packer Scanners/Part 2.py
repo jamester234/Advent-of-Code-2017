@@ -12,7 +12,7 @@ def position(range_firewall, time):
     else:
         return(offset)
 
-all_lines = [line.rstrip('\n') for line in open('Day 13 Data.txt')]
+all_lines = [line.rstrip('\n') for line in open('Data.txt')]
 
 ranges = {}
 

@@ -12,7 +12,7 @@ def index_allow(x, list):
     except IndexError:
         return False
 
-with open('Day 5 Data.txt') as f:
+with open('Data.txt') as f:
     numbers = []
     for line in f:
         numbers.append(int(line))

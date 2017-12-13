@@ -18,3 +18,4 @@ All scripts written with Python 3.6. Where applicable, the data file read is pla
 |[Day 10 - Knot Hash](Day%2010%20-%20Knot%20Hash)
 |[Day 11 - Hex Ed](Day%2011%20-%20Hex%20Ed)
 |[Day 12 - Digital Plumber](Day%2012%20-%20Digital%20Plumber)
+|[Day 13 - Packet Scanners](Day%2013%20-%20Packet%20Scanners)

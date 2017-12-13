@@ -10,7 +10,7 @@ All scripts written with Python 3.6. Where applicable, the data file read is pla
 |[Day 2 - Corruption Checksum](Day%202%20-%20Corruption%20Checksum)
 |[Day 3 - Spiral Memory](Day%203%20-%20Spiral%20Memory)
 |[Day 4 - High-Entropy Passphrases](Day%204%20-%20High-Entropy%20Passphrases)
-|[Day 5 - A Maze of Twisty Trampolines, All Alike](Day%205%20-%20A%20Maze%20of%20Twisty%20Trampolines%2C%20All%20Alike)
+|[Day 5 - A Maze of Twisty Trampolines, All Alike](Day%205%20-%20A%20Maze%20of%20Twisty%20Trampolines%20-%20Alike)
 |[Day 6 - Memory Reallocation](Day%206%20-%20Memory%20Reallocation)
 |[Day 7 - Recursive Circus](Day%207%20-%20Recursive%20Circus)
 |[Day 8 - I Heard You Like Registers](Day%208%20-%20I%20Heard%20You%20Like%20Registers)

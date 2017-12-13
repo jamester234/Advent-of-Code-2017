@@ -5,7 +5,7 @@ Created on Wed Dec  6 23:14:40 2017
 @author: James Jiang
 """
 
-all_lines = [line.rstrip('\n') for line in open('Day 7 Data.txt')]
+all_lines = [line.rstrip('\n') for line in open('Data.txt')]
         
 all_lines_characters = []
 for line in all_lines:

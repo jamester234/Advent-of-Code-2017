@@ -1,6 +1,6 @@
 # Advent of Code 2017
 
-Repository for the Advent of Code online event that took place starting 25 days before Christmas Day in 2017. Problems are available [here](http://adventofcode.com/2017)
+Repository for the Advent of Code online event that took place starting 25 days before Christmas Day in 2017. Problems are available [here](http://adventofcode.com/2017).
 
 All scripts written with Python 3.6. Where applicable, the data file read is placed in the same directory as the saved script.
 

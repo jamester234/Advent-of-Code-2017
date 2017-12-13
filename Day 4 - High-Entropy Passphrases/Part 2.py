@@ -5,7 +5,7 @@ Created on Mon Dec  4 13:07:33 2017
 @author: James Jiang
 """
 
-with open('Day 4 Data.txt') as f:
+with open('Data.txt') as f:
     all_lines = []
     for line in f:
         line = line.split()

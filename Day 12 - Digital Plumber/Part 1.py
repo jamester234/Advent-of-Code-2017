@@ -10,27 +10,9 @@ all_lines = [line.rstrip('\n') for line in open('Data.txt')]
 all_connections = []
 
 for i in range(len(all_lines)):
-    chars = [j for j in all_lines[i]]
-    while True:
-        if ' ' in chars:
-            chars.remove(' ')
-        else:
-            break
-    
-    index = chars.index('-')
-    chars[index] = ','
-    connections = []
-    counter = 0
-    dummy = 0
-    for k in range(len(chars)):
-        if (chars[k] != ',') and (dummy == 0):
-            connections.append(chars[k])
-            dummy = 1
-        elif (chars[k] != ',') and (dummy != 0):
-            connections[counter] += chars[k]
-        else:
-            counter += 1
-            dummy = 0
+    connections_1 = all_lines[i].split(' - ')
+    connections_2 = connections_1[1].split(', ')
+    connections = connections_1[0:1] + connections_2
     connections = [int(k) for k in connections]
     all_connections.append(connections)
     

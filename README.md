@@ -1,8 +1,10 @@
 # Advent of Code 2017
 
-Solving problems in the Advent of Code online event that took place starting 25 days before Christmas Day in 2017. Problems are available [here](http://adventofcode.com/2017).
+Solving programming puzzles in the Advent of Code online event that took place starting 25 days before Christmas Day in 2017. 
 
-All scripts written with Python 3.6. Where applicable, the data file read is placed in the same directory as the saved script.
+Learn more about Advent of Code [here](http://adventofcode.com/2017/about). Problems are available [here](http://adventofcode.com/2017).
+
+All scripts written with Python 3.6. Where applicable, the input data file is placed in the same directory as the Python script.
 
 |Days|
 |---|
@@ -19,3 +21,4 @@ All scripts written with Python 3.6. Where applicable, the data file read is pla
 |[Day 11 - Hex Ed](Day%2011%20-%20Hex%20Ed)
 |[Day 12 - Digital Plumber](Day%2012%20-%20Digital%20Plumber)
 |[Day 13 - Packet Scanners](Day%2013%20-%20Packet%20Scanners)
+|[Day 14 - Disk Defragmentation](Day%2014%20-%20Disk%20Defragmentation)

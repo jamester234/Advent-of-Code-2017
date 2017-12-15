@@ -22,3 +22,4 @@ All scripts written with Python 3.6. Where applicable, the input data file is pl
 |[Day 12 - Digital Plumber](Day%2012%20-%20Digital%20Plumber)
 |[Day 13 - Packet Scanners](Day%2013%20-%20Packet%20Scanners)
 |[Day 14 - Disk Defragmentation](Day%2014%20-%20Disk%20Defragmentation)
+|[Day 15 - Dueling Generators](Day%2015%20-%20Dueling%20Generators)

@@ -25,3 +25,4 @@ All scripts written with Python 3.6. Where applicable, the input data file is pl
 |[Day 15 - Dueling Generators](Day%2015%20-%20Dueling%20Generators)
 |[Day 16 - Permutation Promenade](Day%2016%20-%20Permutation%20Promenade)
 |[Day 17 - Spinlock](Day%2017%20-%20Spinlock)
+|[Day 18 - Duet](Day%2018%20-%20Duet)

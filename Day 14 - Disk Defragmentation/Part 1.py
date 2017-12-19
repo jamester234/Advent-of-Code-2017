@@ -5,10 +5,12 @@ Created on Sun Dec 10 00:25:29 2017
 @author: James Jiang
 """
 
+input = 'ugkiagan'
+
 def knot_hash(n):
     elements = list(range(256))
 
-    string = 'ugkiagan'
+    string = input
 
     lengths = [ord(i) for i in string]
 

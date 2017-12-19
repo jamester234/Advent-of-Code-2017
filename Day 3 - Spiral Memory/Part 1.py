@@ -5,6 +5,8 @@ Created on Mon Dec  4 15:09:49 2017
 @author: James Jiang
 """
 
+input = 368078
+
 def move_right(x):
     return ([x[0] + 1, x[1]])
 
@@ -59,4 +61,4 @@ def y_coordinate(n):
                 move_current += 1
         times_to_move += 1
         
-print(abs(x_coordinate(368078)) + abs(y_coordinate(368078)))
+print(abs(x_coordinate(input)) + abs(y_coordinate(input)))

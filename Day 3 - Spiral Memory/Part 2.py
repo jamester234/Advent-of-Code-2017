@@ -5,6 +5,8 @@ Created on Mon Dec  4 15:09:49 2017
 @author: James Jiang
 """
 
+input = 368078
+
 def move_right(x):
     return ([x[0] + 1, x[1]])
 
@@ -97,7 +99,7 @@ while True:
         if key_coordinates(coordinates_alt) in all_numbers_dict:
             sum_num += all_numbers_dict[key_coordinates(coordinates_alt)]
     all_numbers_dict[key(number)] = sum_num
-    if sum_num > 368078:
+    if sum_num > input:
         print(sum_num)
         break
     number += 1

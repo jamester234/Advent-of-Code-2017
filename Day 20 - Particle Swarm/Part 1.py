@@ -12,7 +12,7 @@ def fix_input(string):
     del chars[-1]
     return(''.join(chars))
 
-all_lines = [line.rstrip('\n') for line in open('Day 20 Data.txt')]
+all_lines = [line.rstrip('\n') for line in open('Data.txt')]
 
 all_lines_properties = []
 for line in all_lines:

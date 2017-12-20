@@ -27,3 +27,4 @@ All scripts written with Python 3.6. Where applicable, the input data file is pl
 |[Day 17 - Spinlock](Day%2017%20-%20Spinlock)
 |[Day 18 - Duet](Day%2018%20-%20Duet)
 |[Day 19 - A Series of Tubes](Day%2019%20-%20A%20Series%20of%20Tubes)
+|[Day 20 - Particle Swarm](Day%2020%20-%20Particle%20Swarm)

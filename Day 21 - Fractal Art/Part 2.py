@@ -5,7 +5,7 @@ Created on Thu Dec 21 00:04:08 2017
 @author: James Jiang
 """
 
-all_lines = [line.rstrip('\n') for line in open('Day 21 Data.txt')]
+all_lines = [line.rstrip('\n') for line in open('Data.txt')]
 
 all_pairs = []
 

@@ -4,7 +4,7 @@ Solving programming puzzles in the Advent of Code online event that took place s
 
 Learn more about Advent of Code [here](http://adventofcode.com/2017/about). Problems are available [here](http://adventofcode.com/2017).
 
-All scripts written with Python 3.6. Where applicable, the input data file is placed in the same directory as the Python script.
+All scripts written in Python 3.6, using only built-in functions, constants, types, and exceptions. Where applicable, the input data file is placed in the same directory as the Python script.
 
 |Days|
 |---|
@@ -28,3 +28,4 @@ All scripts written with Python 3.6. Where applicable, the input data file is pl
 |[Day 18 - Duet](Day%2018%20-%20Duet)
 |[Day 19 - A Series of Tubes](Day%2019%20-%20A%20Series%20of%20Tubes)
 |[Day 20 - Particle Swarm](Day%2020%20-%20Particle%20Swarm)
+|[Day 21 - Fractal Art](Day%2021%20-%20Fractal%20Art)

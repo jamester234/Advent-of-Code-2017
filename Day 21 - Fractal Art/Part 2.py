@@ -112,46 +112,18 @@ while count < 18:
     if len(image) % 2 == 0:
         divisions = break_2(image)
         for division in divisions:
-            dummy = 0
-            if division in enhancements_from:
-                new_image_components.append(enhancements_to[enhancements_from.index(division)])
-                dummy = 1
-            else:
-                for i in range(5):
-                    if operations[i](division) in enhancements_from:
-                        new_image_components.append(enhancements_to[enhancements_from.index(operations[i](division))])
-                        dummy = 1
-                        break
-            if dummy == 0:
-                for i in range(5):
-                    if dummy == 0:
-                        for j in range(5):
-                            if operations[i](operations[j](division)) in enhancements_from:
-                                new_image_components.append(enhancements_to(enhancements_from.index(operations[i](operations[j](division)))))
-                                dummy = 1
-                                break
+            for i in range(8):
+                if operations[i](division) in enhancements_from:
+                    new_image_components.append(enhancements_to[enhancements_from.index(operations[i](division))])
+                    break
         image = make_3(new_image_components)
     else:
         divisions = break_3(image)
         for division in divisions:
-            dummy = 0
-            if division in enhancements_from:
-                new_image_components.append(enhancements_to[enhancements_from.index(division)])
-                dummy = 1
-            else:
-                for i in range(5):
-                    if operations[i](division) in enhancements_from:
-                        new_image_components.append(enhancements_to[enhancements_from.index(operations[i](division))])
-                        dummy = 1
-                        break
-            if dummy == 0:
-                for i in range(5):
-                    if dummy == 0:
-                        for j in range(5):
-                            if operations[i](operations[j](division)) in enhancements_from:
-                                new_image_components.append(enhancements_to[enhancements_from.index(operations[i](operations[j](division)))])
-                                dummy = 1
-                                break
+            for i in range(8):
+                if operations[i](division) in enhancements_from:
+                    new_image_components.append(enhancements_to[enhancements_from.index(operations[i](division))])
+                    break
         image = make_4(new_image_components)
     count += 1
 

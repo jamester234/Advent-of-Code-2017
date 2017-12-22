@@ -5,7 +5,7 @@ Created on Thu Dec 21 22:25:08 2017
 @author: James Jiang
 """
 
-all_lines = [line.rstrip('\n') for line in open('Day 22 Data.txt')]
+all_lines = [line.rstrip('\n') for line in open('Data.txt')]
 
 grid = [[i for i in line] for line in all_lines]
 

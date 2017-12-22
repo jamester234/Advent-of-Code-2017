@@ -29,3 +29,4 @@ All scripts written in Python 3.6, using only built-in functions, constants, typ
 |[Day 19 - A Series of Tubes](Day%2019%20-%20A%20Series%20of%20Tubes)
 |[Day 20 - Particle Swarm](Day%2020%20-%20Particle%20Swarm)
 |[Day 21 - Fractal Art](Day%2021%20-%20Fractal%20Art)
+|[Day 22 - Sporifica Virus](Day%2022%20-%20Sporifica%20Virus)

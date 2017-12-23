@@ -12,7 +12,7 @@ def is_int(x):
     except ValueError:
         return False
 
-all_lines = [line.rstrip('\n') for line in open('Day 23 Data.txt')]
+all_lines = [line.rstrip('\n') for line in open('Data.txt')]
 
 all_instructions = []
 for line in all_lines:

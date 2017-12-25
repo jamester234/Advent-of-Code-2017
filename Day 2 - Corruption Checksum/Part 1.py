@@ -5,7 +5,7 @@ Created on Mon Dec  4 12:38:57 2017
 @author: James Jiang
 """
 
-with open('Day 2 Data.txt') as f:
+with open('Data.txt') as f:
     all_lines = []
     for line in f:
         line = line.strip()

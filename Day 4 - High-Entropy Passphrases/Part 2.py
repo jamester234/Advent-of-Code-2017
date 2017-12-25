@@ -5,11 +5,7 @@ Created on Mon Dec  4 13:07:33 2017
 @author: James Jiang
 """
 
-with open('Data.txt') as f:
-    all_lines = []
-    for line in f:
-        line = line.split()
-        all_lines.append(line)
+all_lines = [line.rstrip('\n') for line in open('Day 23 Data.txt')]
 
 total = 0
 dummy = 0    

@@ -31,3 +31,4 @@ All scripts written in Python 3.6, using only built-in functions, constants, typ
 |[Day 21 - Fractal Art](Day%2021%20-%20Fractal%20Art)
 |[Day 22 - Sporifica Virus](Day%2022%20-%20Sporifica%20Virus)
 |[Day 23 - Coprocessor Conflagration](Day%2023%20-%20Coprocessor%20Conflagration)
+|[Day 24 - Electromagnetic Moat](Day%2024%20-%20Electromagnetic%20Moat)

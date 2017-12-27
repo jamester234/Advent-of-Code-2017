@@ -60,16 +60,10 @@ def knot_hash(n):
     knot_hash_output = ''
 
     for i in range(0, len(dense_hash_list)):
-        chars = [j for j in bin(dense_hash_list[i])]
-        del chars[0]
-        del chars[0]
-        if len(chars) < 8:
-            chars.reverse()
-            while len(chars) < 8:
-                chars.append('0')
-            chars.reverse()
-        for char in chars:
-            knot_hash_output += char  
+        string = bin(dense_hash_list[i])[2:]
+        while len(string) < 8:
+            string = '0' + string
+        knot_hash_output += string 
         
     return(knot_hash_output)
 

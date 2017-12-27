@@ -5,44 +5,16 @@ Created on Sun Dec 10 00:25:29 2017
 @author: James Jiang
 """
 
-def ascii(str):
-    if str == '0':
-        return(48)
-    if str == '1':
-        return(49)
-    if str == '2':
-        return(50)
-    if str == '3':
-        return(51)
-    if str == '4':
-        return(52)
-    if str == '5':
-        return(53)
-    if str == '6':
-        return(54)
-    if str == '7':
-        return(55)
-    if str == '8':
-        return(56)
-    if str == '9':
-        return(57)
-    if str == ',':
-        return(44)
-
-
 elements = list(range(256))
 lengths_not_ascii = [130, ',', 126, ',', 1, ',', 11, ',', 140, ',', 2, ',', 255, ',', 207, ',', 18, ',', 254, ',', 246, ',', 164, ',', 29, ',', 104, ',', 0, ',', 224]
 lengths = []
 
 for i in range(len(lengths_not_ascii)):
-    if lengths_not_ascii[i] != ',':
-        digits = [j for j in str(lengths_not_ascii[i])]
-        for k in range(len(digits)):
-            lengths.append(ascii(digits[k]))
-    else:
-        lengths.append(ascii(','))
+    digits = [j for j in str(lengths_not_ascii[i])]
+    for k in range(len(digits)):
+        lengths.append(ord(digits[k]))
 
-lengths += [17, 31, 73, 47, 23]
+lengths.extend([17, 31, 73, 47, 23])
 
 skip = 0
 elements_pointer = 0
@@ -82,14 +54,10 @@ for i in range(0, len(elements), 16):
 knot_hash = ''
 
 for i in range(0, len(dense_hash_list)):
-    chars = [j for j in hex(dense_hash_list[i])]
-    del chars[0]
-    del chars[0]
-    if len(chars) == 1:
-        chars.append('0')
-        chars.reverse()
-    for char in chars:
-        knot_hash += char
+    string = hex(dense_hash_list[i])[2:]
+    if len(string) == 1:
+        string = '0' + string
+    knot_hash += string
     
 print(knot_hash)
     

@@ -4,7 +4,7 @@ Solving programming puzzles in the Advent of Code online event that took place s
 
 Learn more about Advent of Code [here](http://adventofcode.com/2017/about). Problems are available [here](http://adventofcode.com/2017).
 
-All scripts written in Python 3.6, using only built-in functions, constants, types, and exceptions. Where applicable, the input data file is placed in the same directory as the Python script.
+All scripts are written in Python 3.6, using only built-in functions, constants, types, and exceptions. Where applicable, the input data file is placed in the same directory as the Python script.
 
 |Days|
 |---|

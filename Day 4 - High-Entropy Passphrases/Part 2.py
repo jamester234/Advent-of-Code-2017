@@ -12,7 +12,6 @@ with open('Data.txt') as f:
         all_lines.append(line)
 
 total = 0
-dummy = 0    
 
 for i in range(len(all_lines)):
     counter = 0

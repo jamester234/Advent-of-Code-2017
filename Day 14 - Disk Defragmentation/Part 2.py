@@ -67,13 +67,11 @@ def knot_hash(n):
         
     return(knot_hash_output)
 
-total_used = 0
 all_hashes = []
   
 for i in range(128):
     bits = [k for k in knot_hash(i)]
     all_hashes.append(bits)
-    total_used += bits.count('1')
 
 numbered = []
 for i in range(128):

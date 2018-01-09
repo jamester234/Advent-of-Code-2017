@@ -12,36 +12,19 @@ for line in all_lines:
     all_lines_characters.append(characters)
     
 def weight(str):
-    characters = [i for i in str]
-    del characters[0]
-    del characters[-1]
-    output = ''
-    for i in characters:
-        output += i
-    return(int(output))
+    return(int(str[1:-1]))
     
 def fixed(str):
-    chars = [i for i in str]
-    if ',' in chars:
-        del chars[-1]
-    str_2 = ''
-    for j in chars:
-        str_2 += j
-    return(str_2)
+    if ',' in str:
+        return(str[:-1])
+    else:
+        return(str)
     
 def above_list(list):
-    output = []
-    output_true = []
     if len(list) == 2:
-        return(output)
-    for i in range(len(list)):
-        if list[i] == '->':
-            start = i + 1
-            break
-    for j in range(start, len(list)):
-        output.append(list[j])
-    for program in output:
-        output_true.append(fixed(program))
+        return([])
+    output = list[list.index('->') + 1:]
+    output_true = [fixed(program) for program in output]
     return(output_true)
     
 weights_dict = {}
